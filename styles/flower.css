@@ -135,6 +135,13 @@ font-weight: 400;
  margin: 50px 240px;
 }
 
+
+label{
+    display: block;
+    margin-bottom: 10px;
+   
+}
+
 .footer{
     background: #111010;
 }
