@@ -1,3 +1,5 @@
+
+
 .banner-content{
     display: flex;
     align-items: center;
@@ -20,21 +22,57 @@
 
 .first-section{
     text-align: center;
+    width: 1440px;
+    margin: 0px auto;
+
 
 }
-.retangle{
-    display: flex;
-    gap: 24px;
-    margin: 50px;
-    border-radius: 300px 300px 0px 0px;
+
+.rectangle{
+
+border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
+margin-right: 24px;
+height: 538px;
+width: 464px;
+
+}
+.rectangle-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 240px;
+    margin: 50px 240px;
+    
+}
+#ak{
+    background: #0597A026;
+}
+#dui{
+    background: #477D1126;
+}
+#tin{
+    background: #A7216226;
+}
+
+
+.extra-section{
+    display: flex;
+    text-align: justify;
+    border: 0px auto;
+    margin: 50px;
+    gap: 50px;
+    padding-right: 20px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px 240px;
+    margin: 50px 240px;
+    
 
 }
 
 
-
-
-.paragraph, .extra-section{
+.paragraph{
     display: flex;
     text-align: justify;
     border: 0px auto;
@@ -49,8 +87,28 @@ background: rgba(167, 33, 98, 0.15);
    
     
 }
- 
+ .third-head{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+   
+ }
+ .jokes{
+    color: #E55473;
+ }
+.description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+padding-left: 50px;
 
+font-size: 18px;
+
+font-weight: 400;
+
+}
+.position{
+    padding-left: 50px;
+}
 
 
 .fourth-section{
