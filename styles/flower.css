@@ -18,14 +18,36 @@
     font-weight: 700;
 }
 
+.first-section{
+    text-align: center;
 
-.extra-section{
+}
+.retangle{
     display: flex;
+    gap: 24px;
+    margin: 50px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+}
+
+
+
+
+.paragraph, .extra-section{
+    display: flex;
+    text-align: justify;
+    border: 0px auto;
+    margin: 50px;
+    gap: 50px;
 }
 
 .third-section{
     display: flex;
     text-align: center;
+    background-color: #2727270D;
+   
+    
 }
  
 
@@ -33,14 +55,17 @@
 
 .fourth-section{
     text-align: center;
+    margin: 50px 240px;
     
 }
 .image{
     display: flex;
-    
+    margin: 50px;
     margin-right: 24px;
     justify-content: space-between;
-    width: 50px;
+    border: 0px auto;
+    gap: 24px;
+    width: 100px;
     
 }
 
