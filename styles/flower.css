@@ -1,0 +1,64 @@
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    padding: 50px 240px 0px ;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.fourth-section{
+    text-align: center;
+    
+}
+.image{
+    display: flex;
+    
+    margin-right: 24px;
+    justify-content: space-between;
+    
+}
+
+.image-write{
+ text-align: center;
+ border-radius: 8px;
+ background-image: url('../Flower Asset/Rectangle\ 9.png');
+ padding: 50px 240px;
+ margin: 50px 240px;
+}
+
+.footer{
+    background: #111010;
+}
+#color-flower{
+  color: #E55473;  
+}
+.footer-title,.footer-description{
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer-last{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+
+}
