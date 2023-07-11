@@ -19,9 +19,15 @@
 }
 
 
+.extra-section{
+    display: flex;
+}
 
-
-
+.third-section{
+    display: flex;
+    text-align: center;
+}
+ 
 
 
 
@@ -34,6 +40,7 @@
     
     margin-right: 24px;
     justify-content: space-between;
+    width: 50px;
     
 }
 
